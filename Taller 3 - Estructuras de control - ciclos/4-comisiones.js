@@ -11,6 +11,7 @@ do {
             msg = cont + ") Ventas de " + nombre;
             msg += "\n Valor del articulo vendido";
             venta = parseInt(prompt(msg));
+
             if (!isNaN(venta)) {
                 if (venta < 100000) {
                     comision += venta * 0.025;
